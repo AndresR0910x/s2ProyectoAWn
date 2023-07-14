@@ -106,14 +106,20 @@
 
     <!-- Our Leader Section -->
     <div class="container">
-        <div class="row">
-            <div class="col-md-12 new-section" style="background-image: url('{{ asset('assets/assets/images/lider.jpg') }}');">
-                <h3>NUESTRA LÍDER</h3>
-                <p>"Las mujeres debemos prepararnos constantemente en diferentes áreas del conocimiento, para aprovechar las oportunidades y enfrentar los desafíos"</p>
-            </div>
+    <div class="row">
+        <div class="col-md-12 new-section" style="background-image: url('{{ asset('assets/assets/images/juntas.jpg') }}');">
+            <h3>NUESTRA LÍDER</h3>
+            <p>"Las mujeres debemos prepararnos constantemente en diferentes áreas del conocimiento, para aprovechar las oportunidades y enfrentar los desafíos"</p>
         </div>
     </div>
+    <div class="row justify-content-center">
+        <h3></h3>
+        <div class="col-md-12 new-section" style="background-image: url('{{ asset('assets/assets/images/sara yanez.png') }}'); background-size: 150px 150px; background-repeat: no-repeat; background-position: center;"></div>
+    </div>
+</div>
+
 </div>  
+
 
 <!-- Footer -->
 <footer>
