@@ -8,27 +8,19 @@
     <meta name="viewport" content="width=device-width" />
     
     <title>Analytika Women</title>
-     
+    <!-- faviconc-->
+    <link rel="icon" type="image/png" href="{{asset('assets/assets/images/logo.png')}}"/> 
     
     <!--     Fonts     -->
-    <link href="{{asset('assets/css/cssHome/bootstrap.css')}}" rel="stylesheet" />
-	  <link href="{{asset('assets/css/cssHome/coming-sssoon.css')}}" rel="stylesheet" />  
+    <link href="{{asset('assets/css/bootstrap.css')}}" rel="stylesheet" />
+	  <link href="{{asset('assets/css/coming-sssoon.css')}}" rel="stylesheet" />  
   
 </head>
 
 <body>
 <nav class="navbar navbar-transparent navbar-fixed-top" role="navigation">
   <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-
+   
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
@@ -39,40 +31,49 @@
             <li>
                 <a href="#"> 
                     <i class="fa fa-facebook-square"></i>
-                    Like
+                    Login
+                </a>
+            </li>
+
+            <li>
+                <a href="resources/home/servicios.blade.php"> 
+                    <i class="fa fa-facebook-square"></i>
+                    Servicios
                 </a>
             </li>
              <li>
-                <a href="#"> 
+                <a href="resources/home/eventos.blade.php"> 
                     <i class="fa fa-twitter"></i>
-                    Tweet
+                    Eventos
                 </a>
             </li>
              <li>
                 <a href="#"> 
                     <i class="fa fa-gittip"></i>
-                    Gittip
+                    Equipo de liderazgo
                 </a>
             </li>
        </ul>
       
+   
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
 </nav>
 
-<div class="main" style="background-image: url('{{asset('assets/assets/images/mejores-amigos.jpg')}}')">
+<div class="main" style="background-image: url('{{asset('assets/assets/images/mujer.jpg')}}')">
 
 <!--    Change the image source '/images/restaurant.jpg')" with your favourite image.     -->
     
     <div class="cover black" data-color="black"></div>
      
-<!--   You can change the black color for the filter with those colors: blue, green, red, orange       -->
+<!--   Titulo       -->
 
     <div class="container">
         <h1 class="logo cursive">
         Analytika Women
         </h1>
-<!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
+
+<!--  home somos "           -->
         
         <div class="content">
             <h4 class="motto">Somos una empresa conformada por un grupo multidisciplinario de mujeres profesionales 
@@ -86,25 +87,63 @@
                 
             </div>
         </div>
+    </div> 
+  <!--mision  y vision  -->
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-4">
+              <h3>VISIÓN</h3>
+                <p>Ser una compañía ecuatoriana referente en el ámbito de la investigación financiera, económica, social
+                  y política, aportando al bienestar y desarrollo humano, cumpliendo estándares de calidad, buenas prácticas
+                  y aplicando metodologías innovadoras en la investigación y análisis de información.</p>
+            </div>
+            <div class="col-md-4">
+              <h3>MISIÓN</h3>
+                <p>Transformar data en información mediante conceptos innovadores y ágiles, para que las organizaciones e
+                  instituciones públicas y privadas, cuenten con las mejores soluciones en la toma de decisiones a nivel técnico,
+                    económico, político y social; considerando enfoques de tipo intergeneracional, intersectorial, intercultural,
+                    ambiental, de género y movilidad.</p>
+            </div>
+            <div class="col-md-4">
+              <h3>CULTURA ORGANIZACIONAL</h3>
+                <p>Nuestra empresa promueve la cultura de la integridad personal, para proponer las mejores alternativas frente a 
+                  las necesidades o requerimientos solicitados; para lo cual nos apoyamos de un equipo multidisciplinario de profesionales
+                  con equidad de género.</p>
+            </div>
+        </div>  
+        <div class="container">
+            <div class="contact-info">
+                <h2>Contacto</h2>
+                <p><strong>Teléfono:</strong> 0999785416 - 0990902380</p>
+                <p><strong>Email:</strong> analytikawomen@gmail.com</p>
+                <p><strong>Dirección:</strong> Matriz
+                    Quito /
+                    Sucursales: Pujilí / Guayaquil
+                </p>
+            </div>
+        </div>
+
     </div>
     
- </div> 
+  </div>  
+ 
 
- <div class="footer">
-      <div class="container">
-             Made with <i class="fa fa-heart heart"></i> by <a href="http://www.creative-tim.com">Creative Tim</a>. Free download <a href="http://www.creative-tim.com/product/coming-sssoon-page">here.</a>
-             <div class="contact-info">
-                 <h2>Contacto</h2>
-                 <p><strong>Teléfono:</strong> +1 (123) 456-7890</p>
-                 <p><strong>Email:</strong> info@example.com</p>
-                 <p><strong>Dirección:</strong> 123 Calle Principal, Ciudad, País</p>
-             </div>
-      </div>
-    </div>
- </div>
+        <div class="container">
+            <div class="contact-info">
+                <h2>Contacto</h2>
+                <p><strong>Teléfono:</strong> 0999785416 - 0990902380</p>
+                <p><strong>Email:</strong> analytikawomen@gmail.com</p>
+                <p><strong>Dirección:</strong> Matriz
+                    Quito /
+                    Sucursales: Pujilí / Guayaquil
+                </p>
+            </div>
+        </div>
+    
 
 </body>
-    <script src="{{asset('assets/js/jsHome/jquery-1.10.2.js')}}" type="text/javascript"></script>
-	<script src="{{asset('assets/js/jsHome/bootstrap.min.js')}}" type="text/javascript"></script>
+    <script src="{{asset('assets/js/jquery-1.10.2.js')}}" type="text/javascript"></script>
+	<script src="{{asset('assets/js/bootstrap.min.js')}}" type="text/javascript"></script>
 	
 </html>
