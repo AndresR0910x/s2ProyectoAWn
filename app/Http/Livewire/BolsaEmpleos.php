@@ -5,6 +5,8 @@ namespace App\Http\Livewire;
 use Livewire\Component;
 use App\Models\BolsaEmpleo;
 use App\Models\Empleo;
+use Barryvdh\DomPDF\Facade\Pdf;
+
 
 class BolsaEmpleos extends Component
 {
@@ -71,6 +73,13 @@ class BolsaEmpleos extends Component
 
         $this->cerrarModal();
         $this->limpiarCampos();
+    }
+
+    public function reporte()
+    {
+        $bolsaEmpleos= bolsaEmpleo::all();
+        $pdf = Pdf::loadView('Livewire.bolsaEmpleos.reporte', compact('bolsaEmpleos'));
+        return $pdf->stream('bolsa_empleo_reporte.pdf');
     }
 }
 

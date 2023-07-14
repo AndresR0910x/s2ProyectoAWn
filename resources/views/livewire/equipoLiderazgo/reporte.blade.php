@@ -1,25 +1,17 @@
-<div class="py-12">
-    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-        <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg px-4 py-4">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-            @if(session()->has('message'))
-                <div class="bg-teal-100 rounded-b text-teal-900 px-4 py-4 shadow-md my-3" role="alert">
-                    <div class="flex">
-                        <div>
-                            <h4>{{ session('message') }}</h4>
-                        </div>
-                    </div>
-                </div>
-            @endif
-            <a href="{{ route('EquipoLiderazgo.reporte') }}"
-            class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded mt-2 mb-2">Reporte</a>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-            <button wire:click="crear()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 my-3">Nuevo</button>
-            @if($modal)
-                @include('livewire.equipoLiderazgo.crear-equipo-liderazgo')
-            @endif
-
-            <table class="table-fixed w-full">
+    <title>Reporte Equipos Liderazgo</title>
+  </head>
+  <body>
+  <table class="table-fixed w-full">
                 <thead>
                     <tr class="bg-indigo-600 text-white">
                         <th class="px-4 py-2">Nombre del Líder</th>
@@ -30,7 +22,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach($equiposLiderazgo as $equipo)
+                    @foreach($EquipoLiderazgo as $equipo)
                         <tr>
                             <td class="border px-4 py-2">{{ $equipo->nombre_eL }}</td>
                             <td class="border px-4 py-2">{{ $equipo->cargo_eL }}</td>
@@ -44,6 +36,6 @@
                     @endforeach
                 </tbody>
             </table>
-        </div>
-    </div>
-</div>
+  
+  </body>
+</html>

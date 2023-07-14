@@ -11,6 +11,8 @@
                     </div>
                 </div>
             @endif
+            <a href="{{ route('bolsaEmpleos.reporte') }}"
+            class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded mt-2 mb-2">Reporte</a>
 
             <button wire:click="crear()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 my-3">Nuevo</button>
             @if($modal)

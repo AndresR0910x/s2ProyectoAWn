@@ -47,6 +47,8 @@ Route::middleware([
     Route::get('/servicios', Servicios::class)->name('servicios');
     Route::get('/cursos', Cursos::class)->name('cursos');
     Route::get('/horariosCursos', HorariosCursos::class)->name('horarios-cursos');
+    Route::get('/bolsaEmpleos/reporte', [App\Http\Livewire\BolsaEmpleos::class, 'reporte'])->name('bolsaEmpleos.reporte');
+    Route::get('/equipoLiderazgo/reporte', [App\Http\Livewire\EquiposLiderazgo::class, 'reporte'])->name('EquipoLiderazgo.reporte');
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');

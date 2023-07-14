@@ -4,6 +4,7 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Models\EquipoLiderazgo;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class EquiposLiderazgo extends Component
 {
@@ -89,5 +90,12 @@ class EquiposLiderazgo extends Component
         EquipoLiderazgo::find($id_eL)->delete();
 
         session()->flash('message', '¡Equipo de liderazgo eliminado correctamente!');
+    }
+
+    public function reporte()
+    {
+        $EquipoLiderazgo= EquipoLiderazgo::all();
+        $pdf = Pdf::loadView('Livewire.EquipoLiderazgo.reporte', compact('EquipoLiderazgo'));
+        return $pdf->stream('Equipo_Liderazgo_reporte.pdf');
     }
 }
