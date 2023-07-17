@@ -22,6 +22,14 @@ body{
 body, h1, h2, h3, h4, h5, p, .navbar-nav li a, .logo, .motto, .info-text, .vision-section, .mision-section, .cultura-section, .new-section, .contact-info {
     color: #ffffff;
 }
+.bordered-text {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.bordered-text {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 
 .navbar-nav li a:hover {
     color: #cccccc;
@@ -56,14 +64,14 @@ body, h1, h2, h3, h4, h5, p, .navbar-nav li a, .logo, .motto, .info-text, .visio
 
 /* Typography */
 h3 {
-    color: #a65f5f;
+    color: #a6a15f;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 p {
     font-size: 18px; 
-    color: #b8bb00;
+    color: #e3d9dd96;
     line-height: 1.5;
 }
 

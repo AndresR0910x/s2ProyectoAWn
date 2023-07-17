@@ -45,6 +45,10 @@ class HomeController extends Controller
             "dataServicio" => $dataServicio
         ]);
     }
+    //Nuevas vistas 
+    public function _invoke(){
+        return view('eventos');//nombre del archivp
+    }
     public function dataEvento()
     {
         $cont = evento::count();

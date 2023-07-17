@@ -59,13 +59,14 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li><a class="nav-link scrollto" href="#services">Services</a></li>
-            <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-            <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-            <li><a class="nav-link scrollto" href="#team">Team</a></li>
-            <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
@@ -78,12 +79,8 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
-      <h1>Analytika Women</h1>
-      <h2>Somos una empresa conformada por un grupo multidisciplinario de mujeres 
-        profesionales de diferentes provincias del país, con una trayectoria importante
-         de trabajo y experiencia en empresas públicas y privadas; tenemos un recorrido
-          amplio de trabajo social con grupos de atención prioritaria. Somos multifacéticas
-           y creemos que la mujer está preparada para hacer que las cosas sucedan.</h2>
+      <h1>Welcome to Day</h1>
+      <h2>We are team of talented designers making websites with Bootstrap</h2>
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
   </section><!-- End Hero -->
@@ -525,9 +522,9 @@
       <div class="container">
 
         <div class="section-title">
-          <span>Encuentranos</span>
-          <h2>Encuentranos</h2>
-          <p>Transformamos datos en información, para la toma de decisiones.</p>
+          <span>Contact</span>
+          <h2>Contact</h2>
+          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
         </div>
 
         <div class="row" data-aos="fade-up">
