@@ -4,6 +4,7 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Models\Evento;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class Eventos extends Component
 {
@@ -93,6 +94,15 @@ class Eventos extends Component
         Evento::find($id_eventos)->delete();
 
         session()->flash('message', '¡Evento eliminado correctamente!');
+
+        
+    }
+
+    public function report(){
+        $eventos = Evento::all(); 
+        
+        $pdf = Pdf::loadView('livewire.eventos.report', compact('eventos')); 
+
+        return $pdf->stream('eventosReport.pdf');
     }
 }
-

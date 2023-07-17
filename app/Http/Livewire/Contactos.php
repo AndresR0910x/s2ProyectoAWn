@@ -2,8 +2,11 @@
 
 namespace App\Http\Livewire;
 
+use Barryvdh\DomPDF\Facade\Pdf;
+
 use Livewire\Component;
 use App\Models\Contacto;
+
 
 class Contactos extends Component
 {
@@ -19,7 +22,7 @@ class Contactos extends Component
     public function render()
     {
         $this->contactos = Contacto::all();
-        
+
         return view('livewire.contactos.contactos');
     }
 
@@ -85,5 +88,14 @@ class Contactos extends Component
         Contacto::find($id_contac)->delete();
 
         session()->flash('message', '¡Contacto eliminado correctamente!');
+    }
+
+    public function report()
+    {
+        $contactos = Contacto::all();
+
+        $pdf = Pdf::loadView('livewire.contactos.report', compact('contactos'));
+
+        return $pdf->stream('contactos.pdf');
     }
 }

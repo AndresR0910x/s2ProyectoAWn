@@ -56,4 +56,6 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+    Route::get('/contactos/reportPDF', [App\Http\Livewire\Contactos::class, 'report'])->name('contactos.report');
+    Route::get('/eventos/reportPDF', [App\Http\Livewire\Eventos::class, 'report'])->name('eventos.report');
 });
