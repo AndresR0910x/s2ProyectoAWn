@@ -308,6 +308,7 @@ return [
         ],
 
         [
+<<<<<<< HEAD
             'header' => 'Datos',
         ],
         [
@@ -318,10 +319,23 @@ return [
         [
             'text' => 'Contactos',
             'url' => '/contactos',
+=======
+            'text' => 'blog',
+            'url' => 'admin/blog',
+            'can' => 'manage-blog',
+        ],
+        [
+            'header' => 'CRUDS !!!',
+        ],
+        [
+            'text' => 'Contactos',
+            'url' => url('contactos'),
+>>>>>>> 8685aafa696ef80983fa73372b2356ecd19d7d2a
             'icon' => 'fas fa-fw fa-users',
         ],
         [
             'text' => 'Servicios',
+<<<<<<< HEAD
             'url' => '/servicios',
             'icon' => 'fas fa-fw fa-cogs',
         ],
@@ -338,15 +352,43 @@ return [
         [
             'text' => 'Eventos',
             'url' => '/eventos',
+=======
+            'url' => url('servicios'),
+            'icon' => 'fas fa-fw fa-cogs',
+        ],
+        [
+            'text' => 'Responsabilidad social',
+            'url' => url('responsabilidadSocial'),
+            'icon' => 'fas fa-fw fa-hand-holding-heart',
+        ],
+        [
+            'text' => 'Bolsa de empleos',
+            'url' => url('bolsaEmpleos'),
+            'icon' => 'fas fa-fw fa-briefcase',
+        ],
+        [
+            'text' => 'Equipo de liderazgo',
+            'url' => url('equipoLiderazgo'),
+            'icon' => 'fas fa-fw fa-users',
+        ],
+        [
+            'text' => 'Eventos',
+            'url' => url('eventos'),
+>>>>>>> 8685aafa696ef80983fa73372b2356ecd19d7d2a
             'icon' => 'fas fa-fw fa-calendar-alt',
         ],
         [
             'text' => 'Cursos',
+<<<<<<< HEAD
             'url' => '/cursos',
+=======
+            'url' => url('cursos'),
+>>>>>>> 8685aafa696ef80983fa73372b2356ecd19d7d2a
             'icon' => 'fas fa-fw fa-graduation-cap',
         ],
         [
             'text' => 'Horario Cursos',
+<<<<<<< HEAD
             'url' => '/horariosCursos',
             'icon' => 'fas fa-fw fa-clock',
         ],
@@ -376,6 +418,12 @@ return [
             'icon' => 'fas fa-fw fa-chart-bar',
         ],
 
+=======
+            'url' => url('horarios-Cursos'),
+            'icon' => 'fas fa-fw fa-clock',
+        ],
+
+>>>>>>> 8685aafa696ef80983fa73372b2356ecd19d7d2a
     ],
 
     /*
