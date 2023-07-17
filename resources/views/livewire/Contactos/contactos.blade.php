@@ -1,25 +1,18 @@
 <div class="py-12">
   <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
     <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg px-4 py-4">
-
-      @if(session()->has('message'))
-      <div class="bg-teal-100 rounded-b text-teal-900 px-4 py-4 shadow-md my-3" role="alert">
-        <div class="flex">
-          <div>
-            <h4>{{ session('message') }}</h4>
-          </div>
-        </div>
+      <div class="my-3">
+        <a href="/admin" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4">
+          Ir al Dashboard
+        </a>
       </div>
-      @endif
-
       <button wire:click="crear()"
         class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 my-3">Nuevo</button>
       @if($modal)
       @include('livewire.contactos.crear-contactos')
       @endif
 
-      <a href="{{ route('contactos.report') }}"
-        class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded mt-2 mb-2">Reporte</a>
+
 
 
 
@@ -34,9 +27,9 @@
         </thead>
         <tbody>
           @foreach($contactos as $contacto)
-          <tr>
+          <tr wire:key="contacto-{{ $contacto->id_contac }}">
             <td class="border px-4 py-2">{{ $contacto->tel_contac }}</td>
-            <td class=" border px-4 py-2">{{ $contacto->email_contact }}</td>
+            <td class="border px-4 py-2">{{ $contacto->email_contact }}</td>
             <td class="border px-4 py-2">{{ $contacto->direccion_contact }}</td>
             <td class="border px-4 py-2 text-center">
               <button wire:click="editar({{ $contacto->id_contac }})"

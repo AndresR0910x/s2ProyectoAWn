@@ -2,47 +2,75 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Reporte de Usuarios</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+  <!-- Estilos para el reporte -->
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+  }
 
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #3b82f6;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  </style>
 </head>
 
 <body>
+  <h1>Reporte de Usuarios</h1>
 
-  <title>Reporte de Usuarios</title>
-
-
-  <table class="table-fixed w-full">
+  <table>
     <thead>
-      <tr class="bg-indigo-600 text-white">
-        <th class="px-4 py-2">Teléfono</th>
-        <th class="px-4 py-2">Email</th>
-        <th class="px-4 py-2">Dirección</th>
-        <th class="px-4 py-2">Acciones</th>
+      <tr>
+        <th>Teléfono</th>
+        <th>Email</th>
+        <th>Dirección</th>
       </tr>
     </thead>
     <tbody>
       @foreach($contactos as $contacto)
       <tr>
-        <td class="border px-4 py-2">{{ $contacto->tel_contac }}</td>
-        <td class="border px-4 py-2">{{ $contacto->email_contact }}</td>
-        <td class="border px-4 py-2">{{ $contacto->direccion_contact }}</td>
-        <td class="border px-4 py-2 text-center">
-          <button wire:click="editar({{ $contacto->id_contac }})"
-            class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4">Editar</button>
-          <button wire:click="borrar({{ $contacto->id_contac }})"
-            class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4">Borrar</button>
-        </td>
+        <td>{{ $contacto->tel_contac }}</td>
+        <td>{{ $contacto->email_contact }}</td>
+        <td>{{ $contacto->direccion_contact }}</td>
+
       </tr>
       @endforeach
     </tbody>
   </table>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

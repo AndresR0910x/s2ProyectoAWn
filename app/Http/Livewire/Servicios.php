@@ -6,6 +6,8 @@ use Livewire\Component;
 use App\Models\Servicio;
 use App\Models\Curso;
 use App\Models\HorarioCurso;
+use Barryvdh\DomPDF\Facade\Pdf;
+
 
 class Servicios extends Component
 {
@@ -84,5 +86,11 @@ class Servicios extends Component
 
         session()->flash('message', '¡Servicio eliminado correctamente!');
     }
-}
+    public function report(){
+        $servicios = Servicio::all(); 
+        
+        $pdf = Pdf::loadView('livewire.servicios.report', compact('servicios')); 
 
+        return $pdf->stream('servicioReport.pdf');
+    }
+}

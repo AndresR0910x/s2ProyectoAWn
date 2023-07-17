@@ -103,6 +103,6 @@ class Eventos extends Component
         
         $pdf = Pdf::loadView('livewire.eventos.report', compact('eventos')); 
 
-        return $pdf->stream('eventosReport.pdf');
+        return $pdf->download('eventosReport.pdf');
     }
 }

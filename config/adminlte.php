@@ -306,7 +306,20 @@ return [
             'type' => 'sidebar-menu-search',
             'text' => 'search',
         ],
+
         [
+<<<<<<< HEAD
+            'header' => 'Datos',
+        ],
+        [
+            'text' => 'dashboard',
+            'url' => '/admin',
+            'icon' => 'fas fa-fw fa-users',
+        ],
+        [
+            'text' => 'Contactos',
+            'url' => '/contactos',
+=======
             'text' => 'blog',
             'url' => 'admin/blog',
             'can' => 'manage-blog',
@@ -317,10 +330,29 @@ return [
         [
             'text' => 'Contactos',
             'url' => url('contactos'),
+>>>>>>> 8685aafa696ef80983fa73372b2356ecd19d7d2a
             'icon' => 'fas fa-fw fa-users',
         ],
         [
             'text' => 'Servicios',
+<<<<<<< HEAD
+            'url' => '/servicios',
+            'icon' => 'fas fa-fw fa-cogs',
+        ],
+        [
+            'text' => 'Bolsa de empleos',
+            'url' => '/bolsaEmpleos',
+            'icon' => 'fas fa-fw fa-briefcase',
+        ],
+        [
+            'text' => 'Equipo de liderazgo',
+            'url' => '/equipoLiderazgo',
+            'icon' => 'fas fa-fw fa-users',
+        ],
+        [
+            'text' => 'Eventos',
+            'url' => '/eventos',
+=======
             'url' => url('servicios'),
             'icon' => 'fas fa-fw fa-cogs',
         ],
@@ -342,19 +374,56 @@ return [
         [
             'text' => 'Eventos',
             'url' => url('eventos'),
+>>>>>>> 8685aafa696ef80983fa73372b2356ecd19d7d2a
             'icon' => 'fas fa-fw fa-calendar-alt',
         ],
         [
             'text' => 'Cursos',
+<<<<<<< HEAD
+            'url' => '/cursos',
+=======
             'url' => url('cursos'),
+>>>>>>> 8685aafa696ef80983fa73372b2356ecd19d7d2a
             'icon' => 'fas fa-fw fa-graduation-cap',
         ],
         [
             'text' => 'Horario Cursos',
+<<<<<<< HEAD
+            'url' => '/horariosCursos',
+            'icon' => 'fas fa-fw fa-clock',
+        ],
+
+        [
+            'header' => 'Reportes',
+            // Título de la sección
+        ],
+        [
+            'text' => 'Reporte de eventos',
+            'url' => '/eventos/reportPDF',
+            'icon' => 'fas fa-fw fa-chart-bar',
+        ],
+        [
+            'text' => 'Reporte Contactos',
+            'url' => '/contactos/reportPDF',
+            'icon' => 'fas fa-fw fa-chart-bar',
+        ],
+        [
+            'text' => 'Reporte de Servicios',
+            'url' => '/servicios/reportPDF',
+            'icon' => 'fas fa-fw fa-chart-bar',
+        ],
+        [
+            'text' => 'Reporte de Servicios',
+            'url' => '/reporte-ventas',
+            'icon' => 'fas fa-fw fa-chart-bar',
+        ],
+
+=======
             'url' => url('horarios-Cursos'),
             'icon' => 'fas fa-fw fa-clock',
         ],
 
+>>>>>>> 8685aafa696ef80983fa73372b2356ecd19d7d2a
     ],
 
     /*

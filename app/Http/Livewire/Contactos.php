@@ -96,6 +96,6 @@ class Contactos extends Component
 
         $pdf = Pdf::loadView('livewire.contactos.report', compact('contactos'));
 
-        return $pdf->stream('contactos.pdf');
+        return $pdf->download('contactos.pdf');
     }
 }
