@@ -53,7 +53,7 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Day</a></h1>
+      <h1 class="logo"><a href="index.html">AnalytikaWomen</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -76,18 +76,19 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
+  <section id="hero" class="d-flex align-items-center" style="background: url('{{asset('assets/assets/images/juntas.jpg')}}') no-repeat center center; background-size: cover; color: white;">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="500" style="position: relative; z-index: 1;">
       <h1>Analytika Women</h1>
-      <h2>Somos una empresa conformada por un grupo multidisciplinario de mujeres 
+      <h2 style="text-align: justify;">Somos una empresa conformada por un grupo multidisciplinario de mujeres 
         profesionales de diferentes provincias del país, con una trayectoria importante
          de trabajo y experiencia en empresas públicas y privadas; tenemos un recorrido
           amplio de trabajo social con grupos de atención prioritaria. Somos multifacéticas
            y creemos que la mujer está preparada para hacer que las cosas sucedan.</h2>
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
-  </section><!-- End Hero -->
+</section>
 
+  <!-- End Hero -->
   <main id="main">
 
     <!-- ======= About Section ======= -->
@@ -99,21 +100,27 @@
             <img src="{{asset('assets/assets/imgVista/about.jpg')}}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>Transformamos datos en información, para la toma de decisiones.</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+                "El liderazgo ofrece una oportunidad para marcar la diferencia en la vida de alguien, sin importar cuál sea el proyecto"
+                 <br>Por: Bill Owens                
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              <h1>VISIÓN</h1>
+              <li><i class="bi bi-check-circle"></i> Ser una compañía ecuatoriana referente en el ámbito de la investigación financiera, 
+              económica, social y política, aportando al bienestar y desarrollo humano, cumpliendo estándares de calidad, buenas prácticas
+               y aplicando metodologías innovadoras en la investigación y análisis de información.</li>
+              <h1>MISIÓN</h1>
+              <li><i class="bi bi-check-circle"></i>Transformar data en información mediante conceptos innovadores y ágiles, para que las
+                 organizaciones e instituciones públicas y privadas, cuenten con las mejores soluciones en la toma de decisiones a nivel técnico,
+                  económico, político y social; considerando enfoques de tipo intergeneracional, intersectorial, intercultural, ambiental, de
+                   género y movilidad.</li>
+              <h1>CULTURA ORGANIZACIONAL</h1>
+              <li><i class="bi bi-check-circle"></i>Nuestra empresa promueve la cultura de la integridad personal, para proponer las mejores
+                 alternativas frente a las necesidades o requerimientos solicitados; para lo cual nos apoyamos de un equipo multidisciplinario 
+                 de profesionales con equidad de género.</li>
             </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
+            
           </div>
         </div>
 
@@ -255,17 +262,21 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
+    <section id="cta" class="cta" style="background: url('{{asset('assets/assets/images/lider.png')}}') no-repeat center center; background-size: cover; color: white;>
       <div class="container" data-aos="zoom-in">
 
         <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
+          <h3>NUESTRA LÍDER</h3>
+          <p>"Las mujeres debemos prepararnos constantemente 
+            en diferentes áreas del conocimiento, para aprovechar las 
+            oportunidades y enfrentar los desafíos"</p>
+          
+          
         </div>
 
       </div>
-    </section><!-- End Cta Section -->
+    </section>
+    <!-- End Cta Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -525,8 +536,8 @@
       <div class="container">
 
         <div class="section-title">
-          <span>Encuentranos</span>
-          <h2>Encuentranos</h2>
+          <span>Contactos</span>
+          <h2>Contactos</h2>
           <p>Transformamos datos en información, para la toma de decisiones.</p>
         </div>
 
@@ -534,8 +545,8 @@
           <div class="col-lg-6">
             <div class="info-box mb-4">
               <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <h3>Ubicación</h3>
+              <p>Matriz - Quito</p>
             </div>
           </div>
 
@@ -543,15 +554,15 @@
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>contact@example.com</p>
+              <p>analytikawomen@gmail.com</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
-              <p>+1 5589 55488 55</p>
+              <h3>Contactos</h3>
+              <p>0999785416 - 0990902380</p>
             </div>
           </div>
 
@@ -603,12 +614,12 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h3>Day</h3>
+              <h3>AnalytikaWomen</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                Matriz - Quito<br>
+                Sucursales: Pujilí / Guayaquil<br><br>
+                <strong>Teléfonos:</strong>0999785416 - 0990902380<br>
+                <strong>Email:</strong> analytikawomen@gmail.com<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
