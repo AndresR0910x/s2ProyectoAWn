@@ -14,6 +14,9 @@ body {
   color: #444444;
 }
 
+li {
+  text-align: justify;
+}
 a {
   color: #cc1616;
   text-decoration: none;
@@ -421,10 +424,13 @@ h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("{{asset('assets/assets/images/juntas.jpg')}}") no-repeat center center;
+  background-position: top center;
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
+} 
+
 
 #hero:before {
   content: "";
