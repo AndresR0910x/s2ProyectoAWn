@@ -29,7 +29,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('dashboard');
-});
+}); 
+//vista de home
+Route::get('Vista', HomeController::class, 'eventos');
+
+Route::get('/', HomeController::class);
 
 Route::middleware([
     'auth:sanctum',
