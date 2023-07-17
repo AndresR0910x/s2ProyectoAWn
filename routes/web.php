@@ -11,6 +11,7 @@ use App\Http\Livewire\EquiposLiderazgo;
 use App\Http\Livewire\Nosotros;
 use App\Http\Livewire\Contactos;
 use App\Http\Livewire\Eventos;
+use App\Http\Controllers\Admin\contactosDash;
 
 
 
@@ -52,4 +53,7 @@ Route::middleware([
     })->name('dashboard');
     Route::get('/contactos/reportPDF', [App\Http\Livewire\Contactos::class, 'report'])->name('contactos.report');
     Route::get('/eventos/reportPDF', [App\Http\Livewire\Eventos::class, 'report'])->name('eventos.report');
+    Route::get('/contactosDash', [contactosDash::class, 'index'])->name('contactosDash');
+    Route::get('/servicios/reportPDF', [App\Http\Livewire\Servicios::class, 'report'])->name('servicios.report');
+    
 });

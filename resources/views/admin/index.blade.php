@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'AnalyticaW')
+@section('title', 'DashBoard')
 
 @section('content')
 <br>

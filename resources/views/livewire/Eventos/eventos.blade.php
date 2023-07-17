@@ -12,6 +12,11 @@
       </div>
       @endif
 
+      <div class="my-3">
+        <a href="/admin" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4">
+          Ir al Dashboard
+        </a>
+      </div>
       <a href="{{ route('eventos.report') }}"
         class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded mt-2 mb-2">Reporte</a>
       <button wire:click="crear()"
