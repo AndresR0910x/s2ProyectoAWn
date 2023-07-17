@@ -84,7 +84,7 @@
          de trabajo y experiencia en empresas públicas y privadas; tenemos un recorrido
           amplio de trabajo social con grupos de atención prioritaria. Somos multifacéticas
            y creemos que la mujer está preparada para hacer que las cosas sucedan.</h2>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      
     </div>
 </section>
 
@@ -127,40 +127,133 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Why Us Section ======= -->
+    <!-- ======= SOCIAS - ACCIONISTAS ======= -->
     <section id="why-us" class="why-us">
       <div class="container">
 
         <div class="row">
-
+           <center><h1>SOCIAS - ACCIONISTAS</h1></center>
           <div class="col-lg-4" data-aos="fade-up">
             <div class="box">
-              <span>01</span>
-              <h4>Lorem Ipsum</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+              <span><img src="{{asset('assets/assets/img_aw/sara yanez.png')}}" class="img-fluid" alt=""></span>
+              <h4>Ing. Sara Yánez, Msc. Gerente General</h4>
+              <p style="text-align: justify;">Ingeniera en Sistemas ESPE y UDLA. Maestría en Evaluación de la Política Pública IAEN. Egresada de la Maestría Dirección de 
+                Proyectos UESS. Diplomado en: Gobernanza y Liderazgo Político, Políticas Públicas, Liderazgo local IDE Bussines Scholl. 
+                Diplomado en Liderazgo de los ODS SODECTEC Argentina. Fundadora y presidenta de la Red de Profesionales de Cotopaxi. 
+                Fundadora y ex presidenta de la Red Nacional de Apoyo a la Mujer Ecuatoriana (RENAME). Cofundadora de la Red de Gobierno Abierto Ecuador.
+                 Designada como Facilitadora de la Red de Economía Violeta de Ecuador.
+                Experiencia en Desarrollo de software para la banca privada: PRODUBANCO y Banco Pichincha. Análisis de bases de datos de Instituciones Públicas. 
+                Desarrollo de proyectos sociales con organizaciones de mujeres y grupos vulnerables, Coordinación con la academia para el desarrollo de aplicaciones
+                 informáticas, que servirán para potencializar el emprendimiento y promover el turismo sostenible, la gastronomía y cultura comunitaria del Ecuador. 
+                 Desarrollo de Capacitaciones y Formación Continua en temas de economía, gobernanza y política. Apoyo en la elaboración del plan de Gobierno Abierto de Ecuador 2019-2022. 
+                 Miembro del Consejo Consultivo de las Negociaciones de la Unión Europea con Ecuador 2018 – 2021. Actualmente, apoyando en la Mesa de Justicia Abierta de Ecuador
+                y del grupo de Ciencia Abierta de Ecuador.
+                </p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <div class="box">
-              <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+              <span><img src="{{asset('assets/assets/img_aw/Carolina Ramos Pinto.png')}}" class="img-fluid" alt=""></span>
+              <h4>Arq. Carolina Ramos Pinto, Msc. Presidenta</h4>
+              <p style="text-align: justify;">Arquitecta con maestría en Dirección de Proyectos. Certificación en Prevención de riesgos laborales: construcción y obras públicas.
+                 Cursando Diplomado en Gestión de Empresas Constructoras, de Arquitectura e Inmobiliarias. Estudios en liderazgo y productividad.
+                Experiencia en fiscalización de obras civiles e infraestructura urbana. Desarrollo de estudios de consultoría de arquitectura e 
+                ingeniería. Coordinadora y parte del equipo de proyectos de consultoría de ingeniería en el ámbito de infraestructura sanitaria en 
+                entidades públicas. Manejo de equipos multidisciplinarios.Desarrollo y evaluación de proyectos. Coordinación y desarrollo de estudios 
+                socioeconómicos y de mercado para consultorías de infraestructura sanitaria, vías y regeneración urbana.
+                </p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
-              <span>03</span>
-              <h4> Ad ad velit qui</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+              <span><img src="{{asset('assets/assets/img_aw/Carmen Lopez.png')}}" class="img-fluid" alt=""></span>
+              <h4>Ec. Carmen López Saravia
+                Directora Financiera</h4>
+              <p style="text-align: justify;">Economista UCE. Socia del Colegio de Economistas de Pichincha. Profesional orientada a objetivos y metas medibles. Certificación en 
+                Resiliencia Laboral, habilidades blandas y atención al cliente (Enfoque en la norma ISO 9001-2015). Certificación Internacional en Hubspot. 
+                Escuela de formadores y capacitadores banco del Pacífico.Experiencia: Elaboración de Presupuestos comerciales y determinación del mercado
+                objetivo. Manejo operacional, Digital, Ventas Inbound. Comercio electrónico y de servicios. Elaboración de lineamentos comerciales con aplicación nacional. Diseño y manejo de indicadores comerciales y de productividad.Captación y mantenimiento de socios corporativos. Formular y evaluar planes para la implementación de estrategias comerciales. Gestión área comercial (Instituciones Financieras y Aseguradoras). Dirección de equipos comerciales de alto rendimientos. Capacitaciones y talleres en ventas, liderazgo, motivación, trabajo en equipo, servicio al cliente.
+              </p>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
+    </section>
+    <!-- End SOCIAS - ACCIONISTAS-->
+  </section><!-- End About Section -->
+
+  <!-- ======= EQUIPO DE ALIADOS ESTRATÉGICOS CONSULTORES EXTERNOS ======= -->
+   <!-- ======= Services Section ======= -->
+   <section id="" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <span>EQUIPO DE ALIADOS ESTRATÉGICOS</span>
+        <h2>EQUIPO DE ALIADOS ESTRATÉGICOS</h2>
+        <p >CONSULTORES EXTERNOS</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+            <h4><a href="">Abg. Patricia de Guzmán Valdivieso, Msc.</a></h4>
+            <p style="text-align: justify;">Abogada por la Pontificia Universidad Católica del Ecuador. Máster en Política por The University of Manchester en el Reino Unido.
+               Vicepresidente de International Youth Democratic Union. Ex Subsecretaria de Gobernabilidad en el Ministerio de Gobierno de Guillermo 
+               Lasso. Asesora de bancada en la Asamblea Nacional del PSC. Asesora del Alcalde de Quito. Defensora Pública Penal. Consultora y 
+               capacitadora político jurídica, a nivel nacional e internacional. Formadora de jóvenes.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Sed ut perspiciatis</a></h4>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-tachometer"></i></div>
+            <h4><a href="">Magni Dolores</a></h4>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-world"></i></div>
+            <h4><a href="">Nemo Enim</a></h4>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-slideshow"></i></div>
+            <h4><a href="">Dele cardo</a></h4>
+            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-arch"></i></div>
+            <h4><a href="">Divera don</a></h4>
+            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+  
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
@@ -262,7 +355,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta" style="background: url('{{asset('assets/assets/images/lider.png')}}') no-repeat center center; background-size: cover; color: white;>
+    <section id="cta" class="cta" >
       <div class="container" data-aos="zoom-in">
 
         <div class="text-center">
@@ -271,12 +364,11 @@
             en diferentes áreas del conocimiento, para aprovechar las 
             oportunidades y enfrentar los desafíos"</p>
           
-          
+            <img src="{{asset('assets/assets/images/lider.png')}}" class="img-fluid" alt="">
         </div>
 
       </div>
-    </section>
-    <!-- End Cta Section -->
+    </section><!-- End Cta Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">

@@ -242,7 +242,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  background: #cc1616;
+  background: #c7155f;
 }
 
 .navbar .dropdown ul {
