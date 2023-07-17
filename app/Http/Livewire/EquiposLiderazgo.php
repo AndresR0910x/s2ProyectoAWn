@@ -98,4 +98,6 @@ class EquiposLiderazgo extends Component
         $pdf = Pdf::loadView('Livewire.EquipoLiderazgo.reporte', compact('EquipoLiderazgo'));
         return $pdf->stream('Equipo_Liderazgo_reporte.pdf');
     }
+
+    
 }
